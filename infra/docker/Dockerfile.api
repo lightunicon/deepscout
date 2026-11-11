@@ -2,7 +2,7 @@ FROM python:3.12-alpine3.23@sha256:31a768b01976652c222e318fe5bd6e7c252f056cbf489
 
 ARG VERSION=development
 ARG REVISION=unknown
-ARG SOURCE=https://github.com/francescoveryra-dot/deepscout
+ARG SOURCE=https://github.com/lightunicon/deepscout
 
 LABEL org.opencontainers.image.title="DeepScout API" \
     org.opencontainers.image.description="DeepScout API, research worker, and database migration runtime" \

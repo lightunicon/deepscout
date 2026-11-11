@@ -17,7 +17,7 @@ Authoritative identity document for the DeepScout open-source repository.
 
 ## Repository
 
-- Remote: `git@github.com:francescoveryra-dot/deepscout.git`
+- Remote: `git@github.com:lightunicon/deepscout.git`
 - Default branch: `main`
 - Workflow: topic branch → PR → CI → merge
 

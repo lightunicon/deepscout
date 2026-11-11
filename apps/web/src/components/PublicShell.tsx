@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import type { ReactNode } from "react";
 import { useI18n } from "@/i18n/context";
 
-const REPO = "https://github.com/francescoveryra-dot/deepscout";
+const REPO = "https://github.com/lightunicon/deepscout";
 
 export function PublicShell({ children }: { children: ReactNode }) {
   const pathname = usePathname();

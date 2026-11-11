@@ -15,7 +15,7 @@ Get DeepScout running on your machine in MODE A (no login).
 ## Clone and install
 
 ```bash
-git clone https://github.com/francescoveryra-dot/deepscout.git
+git clone https://github.com/lightunicon/deepscout.git
 cd deepscout
 cp .env.example .env
 ```

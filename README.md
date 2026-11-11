@@ -1,7 +1,5 @@
 # DeepScout
 
-[![CI](https://github.com/francescoveryra-dot/deepscout/actions/workflows/ci.yml/badge.svg)](https://github.com/francescoveryra-dot/deepscout/actions/workflows/ci.yml)
-[![CodeQL](https://github.com/francescoveryra-dot/deepscout/actions/workflows/codeql.yml/badge.svg)](https://github.com/francescoveryra-dot/deepscout/actions/workflows/codeql.yml)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
 **Version 0.1.7** · [Live app](https://deep-scout-plum.vercel.app) · [Explore demo](https://deep-scout-plum.vercel.app/demo)
@@ -56,15 +54,15 @@ The public deployment splits **Vercel** (Next.js frontend) and a **persistent AP
 
 ## Releases and containers
 
-- [Latest GitHub Release](https://github.com/francescoveryra-dot/deepscout/releases/latest)
-- [`deepscout-api` package](https://github.com/francescoveryra-dot/deepscout/pkgs/container/deepscout-api) — API, worker, and migration roles
-- [`deepscout-web` package](https://github.com/francescoveryra-dot/deepscout/pkgs/container/deepscout-web) — Next.js runtime for the release compose stack
+- [Latest GitHub Release](https://github.com/lightunicon/deepscout/releases/latest)
+- [`deepscout-api` package](https://github.com/lightunicon/deepscout/pkgs/container/deepscout-api) — API, worker, and migration roles
+- [`deepscout-web` package](https://github.com/lightunicon/deepscout/pkgs/container/deepscout-web) — Next.js runtime for the release compose stack
 
 Tagged releases publish `linux/amd64` and `linux/arm64` images with exact version, minor,
 immutable SHA, and `latest` tags. Runtime credentials remain external.
 
 ```bash
-git clone --branch v0.1.7 --depth 1 https://github.com/francescoveryra-dot/deepscout.git
+git clone --branch v0.1.7 --depth 1 https://github.com/lightunicon/deepscout.git
 cd deepscout
 cp .env.example .env
 docker compose -f infra/docker/docker-compose.release.yml pull
@@ -153,7 +151,7 @@ Details: [docs/agent-runtime.md](docs/agent-runtime.md)
 ## Quick start (local)
 
 ```bash
-git clone https://github.com/francescoveryra-dot/deepscout.git
+git clone https://github.com/lightunicon/deepscout.git
 cd deepscout
 cp .env.example .env
 # Edit .env: at minimum GOOGLE_API_KEY and TAVILY_API_KEY for research
@@ -207,4 +205,4 @@ Apache License 2.0 — see [LICENSE](LICENSE).
 
 ## Author
 
-Francesco Iaforte — [github.com/francescoveryra-dot](https://github.com/francescoveryra-dot)
+Francesco Iaforte — [github.com/lightunicon](https://github.com/lightunicon)

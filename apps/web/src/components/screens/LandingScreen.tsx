@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { api, apiUrl } from "@/lib/api";
 import { useT } from "@/i18n/context";
 
-const REPO = "https://github.com/francescoveryra-dot/deepscout";
+const REPO = "https://github.com/lightunicon/deepscout";
 
 const FEATURES = [
   "landing.feature.planner",

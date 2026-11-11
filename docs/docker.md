@@ -19,7 +19,7 @@ machine or private network.
 Check out the release whose compose file you intend to run:
 
 ```bash
-git clone --branch v0.1.7 --depth 1 https://github.com/francescoveryra-dot/deepscout.git
+git clone --branch v0.1.7 --depth 1 https://github.com/lightunicon/deepscout.git
 cd deepscout
 cp .env.example .env
 ```
@@ -27,8 +27,8 @@ cp .env.example .env
 The default v0.1.7 images are:
 
 ```text
-ghcr.io/francescoveryra-dot/deepscout-api:0.1.7
-ghcr.io/francescoveryra-dot/deepscout-web:0.1.7
+ghcr.io/lightunicon/deepscout-api:0.1.7
+ghcr.io/lightunicon/deepscout-web:0.1.7
 ```
 
 They are public and support `linux/amd64` and `linux/arm64`. The API image is deliberately reused
@@ -74,8 +74,8 @@ The compose file defaults to the exact release version. Advanced users can point
 SHA tag or an internal mirror without editing the file:
 
 ```bash
-export DEEPSCOUT_API_IMAGE=ghcr.io/francescoveryra-dot/deepscout-api:sha-<short-sha>
-export DEEPSCOUT_WEB_IMAGE=ghcr.io/francescoveryra-dot/deepscout-web:sha-<short-sha>
+export DEEPSCOUT_API_IMAGE=ghcr.io/lightunicon/deepscout-api:sha-<short-sha>
+export DEEPSCOUT_WEB_IMAGE=ghcr.io/lightunicon/deepscout-web:sha-<short-sha>
 docker compose -f infra/docker/docker-compose.release.yml pull
 ```
 

@@ -15,7 +15,7 @@ Thanks for contributing. This is a real monorepo — keep changes focused and te
 See [docs/local-development.md](docs/local-development.md).
 
 ```bash
-git clone https://github.com/francescoveryra-dot/deepscout.git
+git clone https://github.com/lightunicon/deepscout.git
 cd deepscout
 cp .env.example .env
 uv sync --all-packages --dev
@@ -75,7 +75,7 @@ When you change behavior, update the matching doc:
 
 ## Security
 
-Report vulnerabilities via [GitHub private security advisories](https://github.com/francescoveryra-dot/deepscout/security/advisories) — not public issues. See [SECURITY.md](SECURITY.md).
+Report vulnerabilities via [GitHub private security advisories](https://github.com/lightunicon/deepscout/security/advisories) — not public issues. See [SECURITY.md](SECURITY.md).
 
 ## License
 

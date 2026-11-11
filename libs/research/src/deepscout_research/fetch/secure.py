@@ -228,7 +228,7 @@ def _request_pinned(
         conn.putheader("Host", host)
         conn.putheader(
             "User-Agent",
-            "DeepScout/1.0 (research-bot; +https://github.com/francescoveryra-dot/deepscout)",
+            "DeepScout/1.0 (research-bot; +https://github.com/lightunicon/deepscout)",
         )
         conn.putheader(
             "Accept",

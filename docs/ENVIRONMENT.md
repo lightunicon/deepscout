@@ -4,7 +4,7 @@ Contributor reference. For setup steps see [local-development.md](local-developm
 
 ## Repository
 
-- Remote: `https://github.com/francescoveryra-dot/deepscout.git`
+- Remote: `https://github.com/lightunicon/deepscout.git`
 - Default branch: `main`
 - Version: **0.1.7** (see root `pyproject.toml`)
 

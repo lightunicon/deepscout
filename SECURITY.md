@@ -11,7 +11,7 @@
 
 Do not open public GitHub issues for security vulnerabilities.
 
-Use [GitHub private security advisories](https://github.com/francescoveryra-dot/deepscout/security/advisories)
+Use [GitHub private security advisories](https://github.com/lightunicon/deepscout/security/advisories)
 or contact the maintainer via GitHub.
 
 Include: description, reproduction steps, impact, and suggested fix if available.
