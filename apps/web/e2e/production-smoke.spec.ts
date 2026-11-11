@@ -1,8 +1,9 @@
 import { expect, test } from "@playwright/test";
 
 const BASE = process.env.PRODUCTION_URL ?? "https://deep-scout-plum.vercel.app";
+const describeProductionSmoke = process.env.CI && !process.env.PRODUCTION_E2E ? test.describe.skip : test.describe;
 
-test.describe("production public demo smoke", () => {
+describeProductionSmoke("production public demo smoke", () => {
   test("anonymous landing shows public shell", async ({ page }) => {
     await page.goto(`${BASE}/`);
     await expect(page.getByTestId("public-shell")).toBeVisible({ timeout: 15_000 });
