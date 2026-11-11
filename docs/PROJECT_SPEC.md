@@ -10,7 +10,6 @@ Authoritative identity document for the DeepScout open-source repository.
 | Tagline | Autonomous Research & Decision Intelligence |
 | License | Apache License 2.0 |
 | Visibility | Public open source |
-| Maintainer | Francesco Iaforte |
 | Production URL | https://deep-scout-plum.vercel.app |
 | Version | 0.1.7 |
 | Status | Active development on `main` — MODE B hosted + public demos shipped |

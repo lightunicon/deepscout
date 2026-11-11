@@ -27,7 +27,7 @@ async function mockHostedAuthenticated(page: Page) {
         mode: "hosted",
         hosted_auth_ready: true,
         id: "user-1",
-        display_name: "Francesco",
+        display_name: "lightunicon",
       },
     }),
   );
@@ -35,7 +35,7 @@ async function mockHostedAuthenticated(page: Page) {
     route.fulfill({
       json: {
         ...overviewFixture,
-        identity: { label: "Francesco", role: "Authenticated", mode: "hosted" },
+        identity: { label: "lightunicon", role: "Authenticated", mode: "hosted" },
       },
     }),
   );
